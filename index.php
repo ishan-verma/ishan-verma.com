@@ -613,7 +613,7 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 
 
 <div class="jumbotron text-center" style="margin-bottom:0">
-  <p class="text-muted">@2018 Ishan Verma. All rights reserved.</p>
+  <p class="text-muted">@2019 Ishan Verma. All rights reserved.</p>
 </div>
 
 </body>
