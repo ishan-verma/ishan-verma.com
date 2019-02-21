@@ -315,7 +315,7 @@ body {
 </head>
 <body>
 
-<div style="background-image: url('gifbg.gif'); background-size:cover; background-repeat:no-repeat; background-position:center center;" class="text-center text-white" style="margin-bottom:0">
+<div style="background-image: url('background.gif'); background-size:cover; background-repeat:no-repeat; background-position:center center;" class="text-center text-white" style="margin-bottom:0">
     <br>
   <br>
   <br>
