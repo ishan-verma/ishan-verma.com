@@ -6,27 +6,23 @@
   <title>Ishan Verma</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ishan Verma a University of vermont computer science student ishan-verma.com digital portfolio combining years of projects and experience work into one convenient location.">
+  <link rel="icon" type="image/jpeg" href="iv.jpeg" />
+  
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <style>
-  
-.whitefont{
-    text-shadow: 0 0 100px silver;
-    font-size:32px;
-    color:white;
-    font-weight: bold;
-}
-body {
-  height:100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  
-}  
-#map {
+  .mapcenter{
     
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #map {
     width: 100%;
     height: 400px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -315,8 +311,7 @@ body {
 </head>
 <body>
 
-<div style="background-image: url('gifbg.gif'); background-size:cover; background-repeat:no-repeat; background-position:center center;" class="text-center text-white" style="margin-bottom:0">
-    <br>
+<div class="jumbotron text-center" style="margin-bottom:0">
   <br>
   <br>
   <br>
@@ -326,9 +321,9 @@ body {
   <br>
   <img src="cinqueterre.jpg" class="img-circle" alt="Cinque Terre" width="304" height="304">
   <br>
-  <h1 class="whitefont">Ishan Verma</h1>
+  <h1>Ishan Verma</h1>
   <br>
-  <p class="whitefont" >Computer Science Student at The Univeristy of Vermont</p>
+  <p>Computer Science Student at The Univeristy of Vermont</p>
   <br>
   <br>
   <br>
@@ -367,8 +362,8 @@ body {
         <div class="timeline-body">
           <p class="text-muted">2015-2018</p>
           <p class="text-muted">Bachelors of Science in Computer Science</p>
-          <p>Relevant Coursework: C++, Python, Java, Discrete Structures, Data Structures, Computer Organization, PHP,
-			MySQL, HTML, JavaScript, CSS, Database Design for Web, Algorithm Design & Analysis</p>
+          <p>Relevant Coursework: <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=120&action=Search">C++</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=020&action=Search">Python</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=110&action=Search">Java</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=064&action=Search">Discrete Structures</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=124&action=Search">Data Structures</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=121&action=Search">Computer Organization</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=008&action=Search">PHP,
+      MySQL, HTML, JavaScript, CSS</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=148&action=Search">Database Design for Web</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=224&action=Search">Algorithm Design & Analysis</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=205&action=Search">Software Engineering</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=204&action=Search">Database Design</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=275&action=Search">Mobile App Development</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=201&action=Search">Operating System</a></p>
         </div>
       </div>
     </li>
@@ -407,7 +402,7 @@ body {
         <div class="timeline-body">
           <p class="text-muted">June 2018 - August 2018</p>
           
-          <p>Sage Corps Program</p>
+          <p>Actively Looking for an Internship (Sage Corps Program)</p>
         </div>
       </div>
     </li>
@@ -427,7 +422,7 @@ body {
                 Interacted with Company’s employees and learned about their contribution
               </p>
               <p >
- 				Learned about Company’s History and their mission
+        Learned about Company’s History and their mission
               </p>
         </div>
       </div>
@@ -512,7 +507,7 @@ academic, and developmental need
           <p class="text-muted">Spring 2017</p>
           
           <p >
-                Worked in a team of 10 people for 12 hours to develop a market place website (similar to craigslist) using HTML, CSS, PHP, and MySQL just for UVM students
+                Worked in a team of 10 people for 12 hours to develop a website using HTML, CSS, PHP, and MySQL to improve lives of UVM students
           </p>
              
         </div>
@@ -568,7 +563,8 @@ academic, and developmental need
               </ul>
 </div>
 <div id="map" class="mapcenter">
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDvi1-UGUvgaPQu5hnwkgLf-czgbKBw6f4'></script><div style='overflow:hidden;height:400px;width:100%;'><div id='gmap_canvas' style='height:400px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://mapswebsite.org/'>.</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=40534055a33df0faa89fd3a4ed2dfe193a3194d6'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(44.4664477,-73.20029299999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.4664477,-73.20029299999999)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br>redstone apartments, south prospect<br>05401 Burlington<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDvi1-UGUvgaPQu5hnwkgLf-czgbKBw6f4'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://mapswebsite.org/'>google map widget</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=40534055a33df0faa89fd3a4ed2dfe193a3194d6'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(44.4664477,-73.20029299999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.4664477,-73.20029299999999)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br>redstone apartments, south prospect<br>05401 Burlington<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 </div>
 <!--
 To use this code on your website, get a free API key from Google.
@@ -577,7 +573,7 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 <br>
 <div class="social container text-center">
             
-                    <a href="https://www.facebook.com/profile.php?id=100004430535781"><i class="fa fa-lg fa-facebook"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100004430535781"><i class="fa fa-lg fa-facebook"></i></a>
           <a href="https://www.linkedin.com/in/ishan-v-15bb64111/"><i class="fa fa-lg fa-linkedin"></i></a>
           <a href="https://www.instagram.com/herrishan/"><i class="fa fa-lg fa-instagram"></i></a>
           <a href="https://github.com/ishanverma1"><i class="fa fa-lg fa-github"></i></a>
