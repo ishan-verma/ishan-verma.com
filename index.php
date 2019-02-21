@@ -1,13 +1,15 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Ishan Verma</title>
+  <title style="background-image: url('iv.jpeg');">Ishan Verma</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <style>
   
 .whitefont{
@@ -34,15 +36,18 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .social ul {
     margin: 0;
     padding: 5px;
 }
+
 .social ul li {
     margin: 5px;
     list-style: none outside none;
     display: inline-block;
 }
+
 .social i {
     width: 40px;
     height: 40px;
@@ -61,6 +66,7 @@ body {
     -o-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;
 }
+
 .social i:hover {
     color: #FFF;
     text-decoration: none;
@@ -70,63 +76,83 @@ body {
     -o-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;
 }
+
 .social .fa-facebook:hover {
     background: #4060A5;
 }
+
 .social .fa-twitter:hover {
     background: #00ABE3;
 }
+
 .social .fa-google-plus:hover {
     background: #e64522;
 }
+
 .social .fa-github:hover {
     background: #343434;
 }
+
 .social .fa-pinterest:hover {
     background: #cb2027;
 }
+
 .social .fa-linkedin:hover {
     background: #0094BC;
 }
+
 .social .fa-flickr:hover {
     background: #FF57AE;
 }
+
 .social .fa-instagram:hover {
     background: #375989;
 }
+
 .social .fa-vimeo-square:hover {
     background: #83DAEB;
 }
+
 .social .fa-stack-overflow:hover {
     background: #FEA501;
 }
+
 .social .fa-dropbox:hover {
     background: #017FE5;
 }
+
 .social .fa-tumblr:hover {
     background: #3a5876;
 }
+
 .social .fa-dribbble:hover {
     background: #F46899;
 }
+
 .social .fa-skype:hover {
     background: #00C6FF;
 }
+
 .social .fa-stack-exchange:hover {
     background: #4D86C9;
 }
+
 .social .fa-youtube:hover {
     background: #FF1F25;
 }
+
 .social .fa-xing:hover {
     background: #005C5E;
 }
+
 .social .fa-rss:hover {
     background: #e88845;
 }
+
 .social .fa-foursquare:hover {
     background: #09B9E0;
 }
+
 .social .fa-youtube-play:hover {
     background: #DF192A;
 }
@@ -142,6 +168,7 @@ body {
   padding: 20px 0 20px;
   position: relative;
 }
+
 .timeline:before {
   top: 0;
   bottom: 0;
@@ -152,26 +179,32 @@ body {
   left: 50%;
   margin-left: -1.5px;
 }
+
 .timeline > li {
   margin-bottom: 20px;
   position: relative;
 }
+
 .timeline > li:before,
 .timeline > li:after {
   content: " ";
   display: table;
 }
+
 .timeline > li:after {
   clear: both;
 }
+
 .timeline > li:before,
 .timeline > li:after {
   content: " ";
   display: table;
 }
+
 .timeline > li:after {
   clear: both;
 }
+
 .timeline > li > .timeline-panel {
   width: 46%;
   float: left;
@@ -182,6 +215,7 @@ body {
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
+
 .timeline > li > .timeline-panel:before {
   position: absolute;
   top: 26px;
@@ -193,6 +227,7 @@ body {
   border-bottom: 15px solid transparent;
   content: " ";
 }
+
 .timeline > li > .timeline-panel:after {
   position: absolute;
   top: 27px;
@@ -204,6 +239,7 @@ body {
   border-bottom: 14px solid transparent;
   content: " ";
 }
+
 .timeline > li > .timeline-badge {
   color: #fff;
   width: 50px;
@@ -222,44 +258,55 @@ body {
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
 }
+
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
 }
+
 .timeline > li.timeline-inverted > .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
   left: -15px;
   right: auto;
 }
+
 .timeline > li.timeline-inverted > .timeline-panel:after {
   border-left-width: 0;
   border-right-width: 14px;
   left: -14px;
   right: auto;
 }
+
 .timeline-badge.primary {
   background-color: #2e6da4 !important;
 }
+
 .timeline-badge.success {
   background-color: #3f903f !important;
 }
+
 .timeline-badge.warning {
   background-color: #f0ad4e !important;
 }
+
 .timeline-badge.danger {
   background-color: #d9534f !important;
 }
+
 .timeline-badge.info {
   background-color: #5bc0de !important;
 }
+
 .timeline-title {
   margin-top: 0;
   color: inherit;
 }
+
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
 }
+
 .timeline-body > p + p {
   margin-top: 5px;
 }
@@ -355,12 +402,15 @@ body {
       <div class="timeline-badge success"><i class="glyphicon glyphicon-building"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">Internship</h4>
+          <h4 class="timeline-title">Software Development Intern, Cringle GmbH, Berlin, Germany</h4>
         </div>
         <div class="timeline-body">
           <p class="text-muted">June 2018 - August 2018</p>
           
-          <p>Sage Corps Program</p>
+          <p>Developed web applications using Ruby on Rails and REST</p>
+          <p>Built partners web page to send and receive emails using mandrill and mailchimp api</p>
+          <p>Rebuilt the FAQ website using helpscout api and ensured integration with mobile app</p>
+          <p>Worked with marketing and business development team</p>
         </div>
       </div>
     </li>
@@ -443,6 +493,25 @@ academic, and developmental need
     <h1 id="timeline">Projects</h1>
   </div>
   <ul class="timeline">
+  	<li>
+      <div class="timeline-badge success"><i class="glyphicon glyphicon-building"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Coda App</h4>
+        </div>
+        <div class="timeline-body">
+          <p class="text-muted">Fall 2018</p>
+          
+          <p >
+          	Coda is developing an integrated and holistic approach to streamline the discharge process for hospitals. Worked in a team of 5 computer science to develop an android app to simplify and enhance the discharge experience for hospitals and patients alike. 
+          </p>
+          <p >
+          	Highly effecient algorithm and pdf scraper was implemented to acheive this. 
+          </p>
+             
+        </div>
+      </div>
+    </li>
     <li class="timeline-inverted">
       <div class="timeline-badge success"><i class="glyphicon glyphicon-building"></i></div>
       <div class="timeline-panel">
