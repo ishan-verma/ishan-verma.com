@@ -1,28 +1,30 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Ishan Verma</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Ishan Verma a University of vermont computer science student ishan-verma.com digital portfolio combining years of projects and experience work into one convenient location.">
-  <link rel="icon" type="image/jpeg" href="iv.jpeg" />
-  
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <style>
-  .mapcenter{
+  
+.whitefont{
+    text-shadow: 0 0 100px silver;
+    font-size:32px;
+    color:white;
+    font-weight: bold;
+}
+body {
+  height:100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+}  
+#map {
     
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
-  #map {
     width: 100%;
     height: 400px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -32,18 +34,15 @@
     margin: 0;
     padding: 0;
 }
-
 .social ul {
     margin: 0;
     padding: 5px;
 }
-
 .social ul li {
     margin: 5px;
     list-style: none outside none;
     display: inline-block;
 }
-
 .social i {
     width: 40px;
     height: 40px;
@@ -62,7 +61,6 @@
     -o-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;
 }
-
 .social i:hover {
     color: #FFF;
     text-decoration: none;
@@ -72,83 +70,63 @@
     -o-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;
 }
-
 .social .fa-facebook:hover {
     background: #4060A5;
 }
-
 .social .fa-twitter:hover {
     background: #00ABE3;
 }
-
 .social .fa-google-plus:hover {
     background: #e64522;
 }
-
 .social .fa-github:hover {
     background: #343434;
 }
-
 .social .fa-pinterest:hover {
     background: #cb2027;
 }
-
 .social .fa-linkedin:hover {
     background: #0094BC;
 }
-
 .social .fa-flickr:hover {
     background: #FF57AE;
 }
-
 .social .fa-instagram:hover {
     background: #375989;
 }
-
 .social .fa-vimeo-square:hover {
     background: #83DAEB;
 }
-
 .social .fa-stack-overflow:hover {
     background: #FEA501;
 }
-
 .social .fa-dropbox:hover {
     background: #017FE5;
 }
-
 .social .fa-tumblr:hover {
     background: #3a5876;
 }
-
 .social .fa-dribbble:hover {
     background: #F46899;
 }
-
 .social .fa-skype:hover {
     background: #00C6FF;
 }
-
 .social .fa-stack-exchange:hover {
     background: #4D86C9;
 }
-
 .social .fa-youtube:hover {
     background: #FF1F25;
 }
-
 .social .fa-xing:hover {
     background: #005C5E;
 }
-
 .social .fa-rss:hover {
     background: #e88845;
 }
-
 .social .fa-foursquare:hover {
     background: #09B9E0;
 }
-
 .social .fa-youtube-play:hover {
     background: #DF192A;
 }
@@ -164,7 +142,6 @@
   padding: 20px 0 20px;
   position: relative;
 }
-
 .timeline:before {
   top: 0;
   bottom: 0;
@@ -175,32 +152,26 @@
   left: 50%;
   margin-left: -1.5px;
 }
-
 .timeline > li {
   margin-bottom: 20px;
   position: relative;
 }
-
 .timeline > li:before,
 .timeline > li:after {
   content: " ";
   display: table;
 }
-
 .timeline > li:after {
   clear: both;
 }
-
 .timeline > li:before,
 .timeline > li:after {
   content: " ";
   display: table;
 }
-
 .timeline > li:after {
   clear: both;
 }
-
 .timeline > li > .timeline-panel {
   width: 46%;
   float: left;
@@ -211,7 +182,6 @@
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
-
 .timeline > li > .timeline-panel:before {
   position: absolute;
   top: 26px;
@@ -223,7 +193,6 @@
   border-bottom: 15px solid transparent;
   content: " ";
 }
-
 .timeline > li > .timeline-panel:after {
   position: absolute;
   top: 27px;
@@ -235,7 +204,6 @@
   border-bottom: 14px solid transparent;
   content: " ";
 }
-
 .timeline > li > .timeline-badge {
   color: #fff;
   width: 50px;
@@ -254,55 +222,44 @@
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
 }
-
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
 }
-
 .timeline > li.timeline-inverted > .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
   left: -15px;
   right: auto;
 }
-
 .timeline > li.timeline-inverted > .timeline-panel:after {
   border-left-width: 0;
   border-right-width: 14px;
   left: -14px;
   right: auto;
 }
-
 .timeline-badge.primary {
   background-color: #2e6da4 !important;
 }
-
 .timeline-badge.success {
   background-color: #3f903f !important;
 }
-
 .timeline-badge.warning {
   background-color: #f0ad4e !important;
 }
-
 .timeline-badge.danger {
   background-color: #d9534f !important;
 }
-
 .timeline-badge.info {
   background-color: #5bc0de !important;
 }
-
 .timeline-title {
   margin-top: 0;
   color: inherit;
 }
-
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
 }
-
 .timeline-body > p + p {
   margin-top: 5px;
 }
@@ -311,7 +268,8 @@
 </head>
 <body>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
+<div style="background-image: url('gifbg.gif'); background-size:cover; background-repeat:no-repeat; background-position:center center;" class="text-center text-white" style="margin-bottom:0">
+    <br>
   <br>
   <br>
   <br>
@@ -321,9 +279,9 @@
   <br>
   <img src="cinqueterre.jpg" class="img-circle" alt="Cinque Terre" width="304" height="304">
   <br>
-  <h1>Ishan Verma</h1>
+  <h1 class="whitefont">Ishan Verma</h1>
   <br>
-  <p>Computer Science Student at The Univeristy of Vermont</p>
+  <p class="whitefont" >Computer Science Student at The Univeristy of Vermont</p>
   <br>
   <br>
   <br>
@@ -362,8 +320,8 @@
         <div class="timeline-body">
           <p class="text-muted">2015-2018</p>
           <p class="text-muted">Bachelors of Science in Computer Science</p>
-          <p>Relevant Coursework: <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=120&action=Search">C++</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=020&action=Search">Python</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=110&action=Search">Java</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=064&action=Search">Discrete Structures</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=124&action=Search">Data Structures</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=121&action=Search">Computer Organization</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=008&action=Search">PHP,
-      MySQL, HTML, JavaScript, CSS</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=148&action=Search">Database Design for Web</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=224&action=Search">Algorithm Design & Analysis</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=205&action=Search">Software Engineering</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=204&action=Search">Database Design</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=275&action=Search">Mobile App Development</a>, <a href="http://www.uvm.edu/academics/courses/?subject=CS&number=201&action=Search">Operating System</a></p>
+          <p>Relevant Coursework: C++, Python, Java, Discrete Structures, Data Structures, Computer Organization, PHP,
+			MySQL, HTML, JavaScript, CSS, Database Design for Web, Algorithm Design & Analysis</p>
         </div>
       </div>
     </li>
@@ -402,7 +360,7 @@
         <div class="timeline-body">
           <p class="text-muted">June 2018 - August 2018</p>
           
-          <p>Actively Looking for an Internship (Sage Corps Program)</p>
+          <p>Sage Corps Program</p>
         </div>
       </div>
     </li>
@@ -422,7 +380,7 @@
                 Interacted with Company’s employees and learned about their contribution
               </p>
               <p >
-        Learned about Company’s History and their mission
+ 				Learned about Company’s History and their mission
               </p>
         </div>
       </div>
@@ -507,7 +465,7 @@ academic, and developmental need
           <p class="text-muted">Spring 2017</p>
           
           <p >
-                Worked in a team of 10 people for 12 hours to develop a website using HTML, CSS, PHP, and MySQL to improve lives of UVM students
+                Worked in a team of 10 people for 12 hours to develop a market place website (similar to craigslist) using HTML, CSS, PHP, and MySQL just for UVM students
           </p>
              
         </div>
@@ -563,8 +521,7 @@ academic, and developmental need
               </ul>
 </div>
 <div id="map" class="mapcenter">
-
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDvi1-UGUvgaPQu5hnwkgLf-czgbKBw6f4'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://mapswebsite.org/'>google map widget</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=40534055a33df0faa89fd3a4ed2dfe193a3194d6'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(44.4664477,-73.20029299999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.4664477,-73.20029299999999)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br>redstone apartments, south prospect<br>05401 Burlington<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDvi1-UGUvgaPQu5hnwkgLf-czgbKBw6f4'></script><div style='overflow:hidden;height:400px;width:100%;'><div id='gmap_canvas' style='height:400px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://mapswebsite.org/'>.</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=40534055a33df0faa89fd3a4ed2dfe193a3194d6'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(44.4664477,-73.20029299999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.4664477,-73.20029299999999)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br>redstone apartments, south prospect<br>05401 Burlington<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 </div>
 <!--
 To use this code on your website, get a free API key from Google.
@@ -573,7 +530,7 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 <br>
 <div class="social container text-center">
             
-          <a href="https://www.facebook.com/profile.php?id=100004430535781"><i class="fa fa-lg fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100004430535781"><i class="fa fa-lg fa-facebook"></i></a>
           <a href="https://www.linkedin.com/in/ishan-v-15bb64111/"><i class="fa fa-lg fa-linkedin"></i></a>
           <a href="https://www.instagram.com/herrishan/"><i class="fa fa-lg fa-instagram"></i></a>
           <a href="https://github.com/ishanverma1"><i class="fa fa-lg fa-github"></i></a>
