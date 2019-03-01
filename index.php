@@ -328,7 +328,7 @@ body {
   <br>
   <h1 class="whitefont">Ishan Verma</h1>
   <br>
-  <p class="whitefont" >Computer Science Student at The Univeristy of Vermont</p>
+  <p class="whitefont" ></p>
   <br>
   <br>
   <br>
